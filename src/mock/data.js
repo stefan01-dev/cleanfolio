@@ -9,9 +9,9 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: 'Greetings, my names is ',
+  title: 'Greetings, my name is ',
   name: 'Stefan Dudu',
-  subtitle: `I'm de developer you don't know yet you need`,
+  subtitle: `I'm the developer you don't know you need yet`,
   cta: '',
 };
 
@@ -23,7 +23,7 @@ export const aboutData = {
   paragraphTwo:
     'His hunger for knowledge and his perseveration are the reasons of why he can achieve many things in a short period of time and learn a lot. He considers himself a well-organised person, problem solver and he loves to work in a team on ambitious projects with the right people. He enjoys working on the front-end with React but he is very flexible with a lot of technologies.',
   paragraphThree:
-    'Besides programming, his hobbies are weight-lifting, reading, outdoor walks, trekking, reading and sleeping.',
+    'Besides programming, his hobbies are weight-lifting, reading, outdoor walks, trekking and sleeping.',
   resume: 'https://www.linkedin.com/in/stefan-dudu/', // if no resume, the button will not show up
 };
 
@@ -31,7 +31,7 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'roboBuddies.png',
     title: '',
     info: '',
     info2: '',
@@ -40,7 +40,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'faceRecog.png',
     title: '',
     info: '',
     info2: '',
