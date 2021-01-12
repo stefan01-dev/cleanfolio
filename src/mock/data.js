@@ -32,20 +32,22 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'roboBuddies.png',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    title: 'RoboBuddies',
+    info:
+      'I have created a simple website using React.js . I have used for the first time things like components, props & state, destructuring and learned how to update a project using GitHub and fetch data from an API.',
+    info2: ``,
+    url: 'https://stefan01-dev.github.io/robobuddies/',
+    repo: 'https://github.com/stefan01-dev/robobuddies', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     img: 'faceRecog.png',
-    title: '',
-    info: '',
+    title: 'Face Recognition AI',
+    info:
+      'Using the power of the AI, this app is able to return probability scores on the likelihood that the image contains human faces and coordinate locations of where those faces appear with a bounding box. This application was created using Ract.js alongside with an image recognition API. It also includes concepts like Sign In, creating a user and a fully responsive interface.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://dev-face-identification.herokuapp.com/',
+    repo: 'https://github.com/stefan01-dev/face_recog', // if no repo, the button will not show up
   },
 ];
 
@@ -53,7 +55,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'stefan01.dev@gmail.com',
 };
 
 // FOOTER DATA
@@ -62,27 +64,22 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
+      url: 'https://twitter.com/StefanDudu_',
     },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/stefan-dudu/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/stefan01-dev',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
